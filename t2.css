@@ -26,12 +26,32 @@ body {
 }
 
 .content {
-    font-size: 108px;
-    padding: 200px 0;
+    font-size: 20px;
+    padding: auto;
     text-align: center;
     width: 100%;
     margin: 0 auto;
     
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    font-size: 70px;
+    padding: auto 0;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content {
+    font-size: 80px;
+    padding: auto 0;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 .animated {
