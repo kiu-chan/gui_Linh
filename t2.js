@@ -21,10 +21,12 @@ function fadeIn(){
 };
 
 
+var audio = new Audio('audio.mp3');
 
-document.querySelector(".content").onclick=()=>{
-    document.querySelector("#heart").hidden=false
-    document.querySelector("body").style.backgroundColor="#542246"
-    document.querySelector("#heart").hidden=false
-    fadeIn()
-}
+document.querySelector(".content").onclick = () => {
+  audio.play();
+  document.querySelector("#heart").hidden = false;
+  document.querySelector("body").style.backgroundColor = "#542246";
+  document.querySelector("#heart").hidden = false;
+  fadeIn();
+};
